@@ -1,6 +1,12 @@
 title: Судэксперт
 description: Экспертно-оценочная компания.
+author:
+  name: Горшенин Степан Валентинович
+  email: gsv.tlt@gmail.com
 lang: ru
+
+kramdown:
+  input: Kramdown
 
 sass:
   style: compressed
