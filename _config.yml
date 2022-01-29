@@ -1,6 +1,6 @@
 title: Судэксперт
 description: Экспертно-оценочная компания.
-lang: ru
+locale: ru
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-include-cache
