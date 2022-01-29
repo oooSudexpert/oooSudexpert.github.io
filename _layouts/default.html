@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="preload" href="{{ 'fonts/roboto-300.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="{{ 'fonts/roboto-700.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="{{ 'css/site.css' | relative_url }}" as="style">
-  <link rel="stylesheet" href="{{ 'css/site.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="{{ '/assets/css/site.css' | relative_url }}" as="style">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
   {% seo %}
   <!--[if lt IE 9]>
