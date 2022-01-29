@@ -2,3 +2,5 @@ title: Судэксперт
 description: Экспертно-оценочная компания.
 lang: ru
 theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-include-cache
