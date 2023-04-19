@@ -1,0 +1,8 @@
+<form class="form-callback"  action="{{ site.telegram_api }}" method="GET" novalidate>
+    <input name="required" value="" class="visually-hidden">
+    <input name="sity" value="{{ site.sity | escape }}" class="visually-hidden">
+    <input name="phone" type="tel" placeholder="Ваш номер телефона" class="form-control form-control-lg mt-3">   
+    <div class="invalid-feedback">Введите корректный номер телефона</div>
+    <button type="submit" class="btn btn-lg btn-primary shadow mt-3">Отправить</button>
+    <p class="text-muted mt-3"><small>Отправляя данные, вы соглашаетесь с <a href="/privacy/">политикой конфиденциальности</a></small></p>
+</form>

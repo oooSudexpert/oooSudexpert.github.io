@@ -1,15 +1,6 @@
 ---
-layout: default
-title: Главная страница
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
 ---
-
-> Экспертно-оценочная компания
-
-* {:.cls1} This item has the class "cls".
-* {:.cls2} This item has the class "cls".
-  Here continues the above paragraph.
-
-
-This is [a link](http://rubyforge.org) to a page.
-A [link](../test "local URI") can also have a title.
-And [spaces](link with spaces.html)!

@@ -1,0 +1,17 @@
+- title: Главная
+  url: /
+
+- title: Экспертиза
+  url: /expertise/
+
+- title: Оценка
+  url: /appraisal/
+  
+- title: Цены
+  url: /cost/
+
+- title: Контакты
+  url: /contacts/
+  
+- title: Практика
+  url: /practice/

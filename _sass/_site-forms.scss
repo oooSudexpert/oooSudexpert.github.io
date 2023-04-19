@@ -1,0 +1,11 @@
+.validation-message {
+    @extend .invalid-feedback;
+}
+
+.form-control.invalid {
+    @extend .is-invalid;
+}
+
+.form-control.modified.valid {
+    @extend .is-valid;
+}

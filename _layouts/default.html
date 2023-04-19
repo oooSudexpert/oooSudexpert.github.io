@@ -1,33 +1,20 @@
-<!DOCTYPE HTML>
-<html lang="ru" class="no-js">
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+{%- include site_head.html -%}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-
-  <link rel="preload" href="{{ '/assets/css/normalize.css' | relative_url }}" as="style">
-  <link rel="stylesheet" href="{{ '/assets/css/normalize.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  
-  {% seo %}
-
-  <script type="text/javascript" src="/assets/js/form.js" ></script>
-  <script> document.querySelector(".no-js").removeAttribute("class"); </script>
-</head>
-
-<body class="wrap">
-  <vav>
-    <a href="/">Главная</a>
-    <a href="/about">О компании</a>
-  </vav>
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{- content -}}
-
+<body class="d-flex flex-column">
+  <main class="d-flex flex-column flex-grow-1 flex-shrink-0">
+    <header role="navigation" class="navbar navbar-dark">
+      {%- include site_navbar.html -%}
+    </header>
+    <div class="site-content flex-grow-1">
+      {{ content }}
+    </div>
+  </main>
+  <footer class="flex-grow-0 flex-shrink-0 py-3 bg-light border-top text-muted">
+    {%- include site_footer.html -%}
+  </footer>
+  {%- include modal_thanks.html -%}
 </body>
 
 </html>

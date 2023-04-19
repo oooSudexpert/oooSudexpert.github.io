@@ -1,0 +1,39 @@
+html,
+body {
+    min-width: 320px;
+    height: 100%;
+}
+
+h1:focus {
+    outline: none;
+}
+
+h1.display-1 {
+    font-size: calc(1.35rem + 3.3vw);
+    line-height: 1;
+}
+
+.site-content {
+    position: relative;
+}
+
+.ul-icons {
+    list-style-type: none;
+    padding-left: 40px;
+
+    li {
+        position: relative;
+        margin-bottom: 10px;
+
+        &:before {
+            background: url('../images/icons/check-all.svg') no-repeat;
+            position: absolute;
+            left: -40px;
+            top: 0;
+            display: block;
+            content: "";
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

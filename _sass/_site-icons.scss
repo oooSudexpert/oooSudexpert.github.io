@@ -1,0 +1,31 @@
+.social a {
+    text-decoration: none;
+}
+
+.social svg {
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .5));
+}
+
+a:hover .bi.bi-telegram {
+    color: #0088cc !important;
+}
+
+a:hover .bi.bi-whatsapp {
+    color: #43d854 !important;
+}
+
+@media (max-width: 575px) {
+    .social .bi.bi-telegram {
+        color: #0088cc !important;
+    }
+
+    .social .bi.bi-whatsapp {
+        color: #43d854 !important;
+    }
+}
+
+@media (max-width: 359px) {
+    .social a {
+        padding: 2px !important;
+    }
+}
